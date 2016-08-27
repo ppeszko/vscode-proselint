@@ -3,7 +3,7 @@
   "displayName": "proselint",
   "description": "Proselint support for Visual Studio Code",
   "version": "0.0.1",
-  "publisher": "Patryk Peszko",
+  "publisher": "PatrykPeszko",
   "engines": {
     "vscode": "^1.0.0"
   },
