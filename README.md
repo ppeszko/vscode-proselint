@@ -7,11 +7,11 @@ Proselint integration for vscode. There are still some features missing - the mo
 Extension starts checking your document after saving it. You can as well en-/disable extension by pressing a label in the status bar.
 
 Demo: 
-\!\[Proselint\]\(images/Proselint.gif\)
+![Proselint](images/Proselint.gif)
 
 ## Requirements
 
-This extension only combines functionality of vscode and proselint. In order to make it work you need to have the proselint binary installed on your computer.
+This extension only combines functionality of vscode and [proselint](https://github.com/amperser/proselint/). In order to make it work you need to have the proselint binary installed on your computer.
 
 You can install proselint with following command: `pip install proselint`
 
