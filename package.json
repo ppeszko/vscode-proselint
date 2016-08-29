@@ -27,5 +27,13 @@
         "@types/shelljs": "^0.3.30",
         "typescript": "^1.8.5",
         "vscode": "^0.11.0"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/ppeszko/vscode-proselint/issues"
+    },
+    "homepage": "https://github.com/ppeszko/vscode-proselint/blob/master/README.md",
+   "repository": {
+       "type": "git",
+       "url": "git@github.com:ppeszko/vscode-proselint.git"
+   } 
 }
