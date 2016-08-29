@@ -2,7 +2,7 @@
     "name": "vscode-proselint",
     "displayName": "proselint",
     "description": "Proselint support for Visual Studio Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "PatrykPeszko",
     "engines": {
         "vscode": "^1.0.0"
@@ -32,8 +32,8 @@
         "url": "https://github.com/ppeszko/vscode-proselint/issues"
     },
     "homepage": "https://github.com/ppeszko/vscode-proselint/blob/master/README.md",
-   "repository": {
-       "type": "git",
-       "url": "git@github.com:ppeszko/vscode-proselint.git"
-   } 
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ppeszko/vscode-proselint.git"
+    }
 }
