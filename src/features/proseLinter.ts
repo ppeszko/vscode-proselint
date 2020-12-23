@@ -47,7 +47,7 @@ export default class ProseLinter implements vscode.CodeActionProvider {
     }
 
     public checkDocument(document: vscode.TextDocument = vscode.window.activeTextEditor.document) {
-        shelljs.exec(`proselint --json ${document.fileName}`, (code, output, error) => {
+        shelljs.exec(`proselint --json "${document.fileName}"`, (code, output, error) => {
             this.proseLintResult(document, code, output, error);
         });
     }
