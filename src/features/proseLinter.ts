@@ -96,13 +96,19 @@ export default class ProseLinter implements vscode.CodeActionProvider {
             }
             console.log(error.severity);
 
+            let errorEnd = error.end - 1 as number;
+            let errorColumn = error.column - 1 as number;
+            let errorStart = error.start - 2 as number;
+            let errorStartInLine = errorColumn;
+            let errorEndInLine = errorColumn + errorEnd - errorStart;
+
             let linterError = {
                 message: error.message as string,
                 check: error.check as string,
                 line: error.line - 1 as number,
-                column: error.column - 1 as number,
-                start: error.start - 2 as number,
-                end: error.end - 1 as number,
+                column: errorColumn,
+                start: errorStartInLine,
+                end: errorEndInLine,
                 extent: error.extent as number,
                 severity: severity
             };
